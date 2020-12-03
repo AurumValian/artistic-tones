@@ -1,5 +1,6 @@
 import './App.css';
-import Header from '../Header/Header'
+import Header from '../Header/Header';
+import Main from '../Main/Main';
 
 import React from 'react';
 import { Route } from 'react-router-dom';
@@ -9,9 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Route exact path="/" render={() =>
-        <section>
-          This website is in the process of being built!
-        </section>
+        <Main />
         }
       />
       <Route exact path="/harpstuff" render={() =>
