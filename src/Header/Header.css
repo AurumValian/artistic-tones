@@ -7,6 +7,13 @@
   color: white;
 }
 
+.head-button {
+  background-color: white;
+  color: lightsteelblue;
+  border: 1px solid black;
+  font-size: 18px
+}
+
 h1 {
   display: grid;
   grid-column: 2
