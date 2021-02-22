@@ -1,14 +1,17 @@
 .App-header {
-  background-color: lightsteelblue;
+  background-color: #0036ff;
   min-height: 10vh;
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 2fr 1fr;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .head-button {
-  background-color: white;
+  display: grid;
+  grid-row: auto;
+  background-color: #F4E29F;
   color: lightsteelblue;
   border: 1px solid black;
   font-size: 18px
@@ -16,5 +19,8 @@
 
 h1 {
   display: grid;
-  grid-column: 2
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column: 2;
+  background-color: #F4E29F
 }

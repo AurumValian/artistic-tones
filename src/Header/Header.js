@@ -5,20 +5,20 @@ const Header = () => {
   return (
     <header className="App-header">
       <div>
-        <NavLink className="head-button" to="/harpstuff">
+        <NavLink className="head-button" id="button1"to="/harpstuff">
           Harpistry
         </NavLink>
-        <NavLink className="head-button" to="books">
+        <NavLink className="head-button" id="button2" to="/books">
           Books
         </NavLink>
-        <NavLink className="head-button" to="sound">
+        <NavLink className="head-button" id="button3" to="/sound">
           Sound Tech
         </NavLink>
       </div>
       <h1>
         Welcome to Artistic Tones!
       </h1>
-      <NavLink className="head-button" to='/'>
+      <NavLink className="head-button" id="button4" to='/'>
         About
       </NavLink>
     </header>

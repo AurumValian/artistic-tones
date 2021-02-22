@@ -5,7 +5,7 @@ const Main = () => {
     <section className="main-section">
       <h2>About</h2>
       <p>This website is dedicated to different aspects of my work! Click on the buttons above to learn more!</p>
-      <img src="https://img.apmcdn.org/471312c74ac7f7c1131e5ffa68c3da37baa573fd/uncropped/fae41a-20200507-the-harp.jpg"></img>
+      <img className="homepage-image" src="https://user-images.githubusercontent.com/62782385/108633208-48966480-7430-11eb-980a-bc656692e3fb.png"></img>
     </section>
   )
 }
