@@ -1,6 +1,7 @@
 .App-header {
   background-color: #0036ff;
   min-height: 10vh;
+  max-height: 35vh;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 2fr 1fr;
@@ -10,11 +11,35 @@
 
 .head-button {
   display: grid;
-  grid-row: auto;
   background-color: #F4E29F;
-  color: lightsteelblue;
+  color: white;
   border: 1px solid black;
-  font-size: 18px
+  font-size: 18px;
+  margin-top: 10%;
+  margin-bottom: 10%
+}
+
+#button1 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+
+}
+
+#button2 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#button3 {
+  display: grid;
+  grid-row: 3;
+}
+
+#button4 {
+  grid-column: 3;
+  grid-row: 2;
 }
 
 h1 {
